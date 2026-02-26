@@ -25,6 +25,7 @@ import cssWorker from 'monaco-editor/esm/vs/language/css/css.worker?worker';
 import htmlWorker from 'monaco-editor/esm/vs/language/html/html.worker?worker';
 import jsonWorker from 'monaco-editor/esm/vs/language/json/json.worker?worker';
 
+import SplashScreen from './components/SplashScreen';
 import 'katex/dist/katex.min.css';
 import 'monaco-editor/min/vs/editor/editor.main.css';
 
@@ -1207,15 +1208,18 @@ export default function App(): ReactElement {
 
   if (!currentSlideData) {
     return (
+      <SplashScreen>
       <div className="empty-state">
         <h1>Markdown Deck</h1>
         <p>No slides available.</p>
       </div>
+      </SplashScreen>
     );
   }
 
   if (isPresenterWindow) {
     return (
+      <SplashScreen>
       <div className={`presenter-layout theme-${themeConfig.id}`}>
         <header className="presenter-topbar">
           <div className="presenter-heading">
@@ -1275,10 +1279,12 @@ export default function App(): ReactElement {
           </div>
         </aside>
       </div>
+      </SplashScreen>
     );
   }
 
   return (
+    <SplashScreen>
     <>
       <div className={`app-shell theme-${themeConfig.id}`}>
         <header className="toolbar">
@@ -1435,5 +1441,6 @@ export default function App(): ReactElement {
         </div>
       ) : null}
     </>
+    </SplashScreen>
   );
 }
