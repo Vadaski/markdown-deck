@@ -1,0 +1,18 @@
+version: 1
+projectPrefix: "MARK"
+sprint:
+  stateFile: ".va-auto-pilot/sprint-state.json"
+  boardFile: "docs/todo/sprint.md"
+  runJournalFile: "docs/todo/run-journal.md"
+qualityGate:
+  buildCommand: "npm run build"
+  reviewCommand: "echo review-skipped"
+  acceptanceTestCommand: "npm run build"
+review:
+  domainRoleName: "Domain Expert"
+  domainPrompt: "You are the domain expert for this product. Review behavioral correctness, user impact, and product consistency."
+api:
+  debugSetupEndpoint: "/api/debug/setup"
+  debugChatEndpoint: "/api/debug/chat"
+testing:
+  resultsDir: "docs/quality/query-tests/results"

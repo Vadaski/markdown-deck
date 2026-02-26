@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.va-auto-pilot/parallel-runs/
+*.local
+.DS_Store

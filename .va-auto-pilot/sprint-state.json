@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "projectPrefix": "MARK",
+  "updatedAt": "2026-02-26T01:58:18.790Z",
+  "tasks": [
+    {
+      "id": "MARK-001",
+      "title": "Replace with your first deliverable",
+      "priority": "P1",
+      "state": "Backlog",
+      "owner": "VA Auto-Pilot",
+      "source": "bootstrap",
+      "createdAt": "2026-02-26",
+      "startedAt": "",
+      "completedAt": "",
+      "lastFailedAt": "",
+      "failCount": 0,
+      "reason": "",
+      "verification": "",
+      "notes": "",
+      "review": {
+        "implementer": "",
+        "security": "",
+        "qa": "",
+        "domain": "",
+        "architect": ""
+      },
+      "testing": {
+        "flow": "feature-smoke",
+        "mustPassRate": "",
+        "shouldPassRate": ""
+      },
+      "dependsOn": []
+    },
+    {
+      "id": "MARK-002",
+      "title": "Polish UI/UX per human board instructions",
+      "priority": "P1",
+      "state": "Backlog",
+      "owner": "",
+      "source": "",
+      "createdAt": "2026-02-26",
+      "startedAt": "",
+      "completedAt": "",
+      "lastFailedAt": "",
+      "failCount": 0,
+      "reason": "",
+      "verification": "",
+      "notes": "",
+      "review": {
+        "implementer": "",
+        "security": "",
+        "qa": "",
+        "domain": "",
+        "architect": ""
+      },
+      "testing": {
+        "flow": "",
+        "mustPassRate": "",
+        "shouldPassRate": ""
+      },
+      "dependsOn": []
+    },
+    {
+      "id": "MARK-003",
+      "title": "Configure GitHub Pages deployment (base path + workflow)",
+      "priority": "P0",
+      "state": "Backlog",
+      "owner": "",
+      "source": "",
+      "createdAt": "2026-02-26",
+      "startedAt": "",
+      "completedAt": "",
+      "lastFailedAt": "",
+      "failCount": 0,
+      "reason": "",
+      "verification": "",
+      "notes": "",
+      "review": {
+        "implementer": "",
+        "security": "",
+        "qa": "",
+        "domain": "",
+        "architect": ""
+      },
+      "testing": {
+        "flow": "",
+        "mustPassRate": "",
+        "shouldPassRate": ""
+      },
+      "dependsOn": []
+    },
+    {
+      "id": "MARK-004",
+      "title": "Fix any TypeScript errors and ensure clean build",
+      "priority": "P0",
+      "state": "Backlog",
+      "owner": "",
+      "source": "",
+      "createdAt": "2026-02-26",
+      "startedAt": "",
+      "completedAt": "",
+      "lastFailedAt": "",
+      "failCount": 0,
+      "reason": "",
+      "verification": "",
+      "notes": "",
+      "review": {
+        "implementer": "",
+        "security": "",
+        "qa": "",
+        "domain": "",
+        "architect": ""
+      },
+      "testing": {
+        "flow": "",
+        "mustPassRate": "",
+        "shouldPassRate": ""
+      },
+      "dependsOn": []
+    },
+    {
+      "id": "MARK-005",
+      "title": "Add compelling demo content and sample data",
+      "priority": "P1",
+      "state": "Backlog",
+      "owner": "",
+      "source": "",
+      "createdAt": "2026-02-26",
+      "startedAt": "",
+      "completedAt": "",
+      "lastFailedAt": "",
+      "failCount": 0,
+      "reason": "",
+      "verification": "",
+      "notes": "",
+      "review": {
+        "implementer": "",
+        "security": "",
+        "qa": "",
+        "domain": "",
+        "architect": ""
+      },
+      "testing": {
+        "flow": "",
+        "mustPassRate": "",
+        "shouldPassRate": ""
+      },
+      "dependsOn": []
+    }
+  ]
+}
